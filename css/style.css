@@ -1,0 +1,153 @@
+/* Paleta de colores */
+/* https://coolors.co/palette/8ecae6-219ebc-023047-ffb703-fb8500*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --celeste: #8ecae6;
+  --celeste-oscuro: #219ebc;
+  --petroleo: #023047;
+  --naranja-claro: #ffb703;
+  --naranja: #fb8500;
+}
+
+body {
+  background-image: url("../img/portada01.webp");
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+header {
+  background-color: var(--petroleo);
+  color: var(--naranja);
+  padding: 10px 10px 10px 40px;
+  margin-bottom: 20px;
+  height: 20%;
+}
+
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+h2 {
+  font-size: 2.3rem;
+  font-style: italic;
+}
+
+.container-error{
+  height: 40vh;    
+}
+.container-error h3{
+  padding: 2rem 3rem 1rem 3rem;
+  font-style: italic;
+  font-weight: bold;
+}
+.container-error img{
+  height: 20vh;  
+}
+
+.form-control {
+  padding: 0.46rem;
+}
+.input-group-text {
+  background-color: var(--celeste);
+}
+.tamano {
+  width: auto;
+  height: 25px;
+}
+
+input:active {
+  border: none;
+}
+
+.btn {
+  border: none;
+  border-radius: 0.375rem !important;
+}
+
+.btn-pwa {
+  background-color: var(--celeste-oscuro);
+  color: white;
+}
+
+.btn-pwa:hover {
+  background-color: var(--petroleo);
+  color: white;
+}
+
+.city {  
+  font-size: 2rem;  
+}
+
+.city span {
+  font-style: italic;
+  font-weight: bold;
+  color: var(--naranja);  
+}
+
+.temp {  
+  font-size: 2rem;
+  font-weight: bolder;
+  color: var(--celeste-oscuro)
+}
+
+.tmin {  
+  font-size: 1.5rem;  
+  font-weight: bold;
+  color: blue;
+}
+
+.tmax {  
+  font-size: 1.5rem;  
+  font-weight: bold;
+  color: red;
+}
+
+.term {  
+  font-size: 1.5rem;  
+  color: var(--naranja);
+}
+
+.complemento {  
+  font-size: 1.5rem;  
+  color: var(--petroleo);
+}
+
+.bold{
+  font-weight: bold;
+  color: var(--petroleo);
+}
+
+.bg-img{
+  height: 5rem;
+  background-color: var(--celeste);
+  border-radius: 5px;
+}
+
+.desc{
+  font-size: 1.5rem;  
+  color: var(--petroleo);
+  font-weight: bold;
+}
+
+footer {
+  color: var(--naranja-claro);
+  background-color: var(--petroleo);
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 10px 10px 6px 0px;
+  margin-top: 20px;  
+}
+
+footer p {
+  margin: 0;
+}
+
+#player{
+  display: none;
+}
